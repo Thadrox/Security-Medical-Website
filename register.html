@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register | Duke CBT</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="form-box">
+    <h2>Create Account</h2>
+    <form action="https://formspree.io/f/xovldppr" method="POST">
+      <input type="text" name="username" placeholder="Your Name" required />
+      <input type="password" name="password" placeholder="Create Password" required />
+      <input type="text" name="secret" placeholder="Secret Answer (for reset)" required />
+      <input type="email" name="_replyto" placeholder="Your Email" />
+      <input type="hidden" name="_subject" value="New CBT Registration" />
+      <button type="submit">Register</button>
+    </form>
+    <a class="whatsapp-help" href="login.html">Already have account? Login</a>
+  </div>
+</body>
+</html>
